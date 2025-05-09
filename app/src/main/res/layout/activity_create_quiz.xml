@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Question Field -->
+    <EditText
+        android:id="@+id/etQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the question"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:lines="3"
+        android:scrollbars="vertical" />
+
+    <!-- Option 1 -->
+    <EditText
+        android:id="@+id/etOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Option 2 -->
+    <EditText
+        android:id="@+id/etOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Option 3 -->
+    <EditText
+        android:id="@+id/etOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Option 4 -->
+    <EditText
+        android:id="@+id/etOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Correct Answer Field -->
+    <EditText
+        android:id="@+id/etCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct Answer"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Question"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:padding="16dp" />
+
+</LinearLayout>

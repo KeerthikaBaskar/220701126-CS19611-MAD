@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Question TextView -->
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is your favorite color?"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Option Buttons -->
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
